@@ -9,7 +9,7 @@ Table of Contents
      Windows
     Support and Feedback
 
-An advanced version of Cal-Reminder
+An advanced versionPsTo-do of Cal-Reminder
 This app uses .Net as front and powershell code as backend.
 
 Welcome to My Awesome App! This innovative and user-friendly application is designed to simplify your daily tasks and help you stay organized. Keep reading to learn more about the app, its features, system requirements, and installation process.
@@ -42,4 +42,4 @@ Follow these steps to install PsTo-do on Windows
     Locate the downloaded file and double-click on it to start the installation process.
     Follow the on-screen instructions to complete the installation.
 
-We hope you enjoy using My Awesome App! For any questions, feedback, or bug reports, please submit an issue on our GitHub repository. Happy organizing!
+We hope you enjoy using PsTo-Do! For any questions, feedback, or bug reports, please submit an issue on our GitHub repository. Happy organizing!
