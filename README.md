@@ -12,16 +12,19 @@ Table of Contents
 An advanced versionPsTo-do of Cal-Reminder
 This app uses .Net as front and powershell code as backend.
 
-Welcome to My Awesome App! This innovative and user-friendly application is designed to simplify your daily tasks and help you stay organized. Keep reading to learn more about the app, its features, system requirements, and installation process.
+Welcome to PsTo-Do App! This innovative and user-friendly application is designed to simplify your daily tasks and help you stay organized. If you want to monitor licenses or other objects this solution will help your organization.
+Keep reading to learn more about the app, its features, system requirements, and installation process.
+
 Description
 
 PsTo-do is a application built to enhance productivity and improve time management. It offers a range of features, including:
     Task management: Create, edit, and organize tasks using an intuitive interface.
     Notifications: Stay on top of your schedule with customizable reminders and alerts with teams and mail.
     Collaboration: Share and assign tasks to team members, and track progress in real-time.
-    Analytics: Analyze your productivity with insightful reports and statistics.
+
 
 Whether you're an individual looking to optimize your workflow or a team striving for seamless collaboration, PsTo-do has you covered.
+
 System Requirements
 
 PsTo-do is compatible with the following platforms and their respective system requirements:
