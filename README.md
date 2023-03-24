@@ -38,7 +38,7 @@ Installation Process
 
 Follow these steps to install PsTo-do on Windows
 
-    Download the installer for Powershell from the [releases](https://github.com/PowerShell/PowerShell/releases) page.
+    Download the installer for Powershell from the https://github.com/PowerShell/PowerShell/releases page.
     Locate the downloaded file and double-click on it to start the installation process.
     Follow the on-screen instructions to complete the installation.
 
