@@ -1,12 +1,12 @@
-# PsTo-do
+# PsTo-Do
 
 Table of Contents
 
     Description
     System Requirements
-        Windows
+     Windows
     Installation Process
-        Windows
+     Windows
     Support and Feedback
 
 An advanced version of Cal-Reminder
@@ -27,6 +27,7 @@ System Requirements
 PsTo-do is compatible with the following platforms and their respective system requirements:
 Windows
 
+    Windows
     Operating System: Windows server system 
     Database : Ms-Sql
     Powershell : 7.x.x
