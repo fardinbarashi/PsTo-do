@@ -27,7 +27,9 @@ PsTo-do is a application built to enhance productivity and improve time manageme
 Whether you're an individual looking to optimize your workflow or a team striving for seamless collaboration, PsTo-do has you covered.
 
 System Requirements
-See design.img
+See design image
+`![A cute cat](https://i.imgur.com/12345.jpg)`
+
 
 PsTo-do is compatible with the following platforms and their respective system requirements:
 Windows
