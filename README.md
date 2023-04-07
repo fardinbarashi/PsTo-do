@@ -9,10 +9,11 @@ Table of Contents
      Windows
     Support and Feedback
 
-An advanced versionPsTo-do of Cal-Reminder
-This app uses .Net as front and powershell code as backend.
 
-Welcome to PsTo-Do App! This innovative and user-friendly application is designed to simplify your daily tasks and help you stay organized. If you want to monitor licenses or other objects this solution will help your organization.
+
+
+Welcome  PsTo-Do App! This innovative and user-friendly application is designed to simplify your daily tasks and help you stay organized. If you want to monitor licenses or other objects this solution will help your organization.
+This app uses .Net as front and powershell code as backend.
 Keep reading to learn more about the app, its features, system requirements, and installation process.
 
 Description
