@@ -2,22 +2,11 @@
 
 Table of Contents
 
-    Description
-    System Requirements
-     Windows
-    Installation Process
-     Windows
-    Support and Feedback
-
-
-
-
 Welcome  PsTo-Do App! This innovative and user-friendly application is designed to simplify your daily tasks and help you stay organized. If you want to monitor licenses or other objects this solution will help your organization.
 This app uses .Net as front and powershell code as backend.
 Keep reading to learn more about the app, its features, system requirements, and installation process.
 
 Description
-
 PsTo-do is a application built to enhance productivity and improve time management. It offers a range of features, including:
     Task management: Create, edit, and organize tasks using an intuitive interface.
     Notifications: Stay on top of your schedule with customizable reminders and alerts with teams and mail.
@@ -29,17 +18,6 @@ Whether you're an individual looking to optimize your workflow or a team strivin
 System Requirements
 See design image
 ![design image](https://github.com/fardinbarashi/PsTo-do/blob/main/Design.jpg))
-
-
-PsTo-do is compatible with the following platforms and their respective system requirements:
-Windows
-
-    Windows
-    Operating System: Windows server system 
-    Database : Ms-Sql
-    Powershell : 7.x.x
-    Storage: 250 MB available space
-
 
 Installation Process
  1.  On the Appserver
