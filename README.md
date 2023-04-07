@@ -28,7 +28,7 @@ Whether you're an individual looking to optimize your workflow or a team strivin
 
 System Requirements
 See design image
-`![design image]([https://i.imgur.com/12345.jpg)](https://github.com/fardinbarashi/PsTo-do/blob/main/Design.jpg)`
+`![design image](https://i.imgur.com/12345.jpg](https://github.com/fardinbarashi/PsTo-do/blob/main/Design.jpg)`
 
 
 PsTo-do is compatible with the following platforms and their respective system requirements:
