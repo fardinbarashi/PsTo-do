@@ -53,14 +53,10 @@ Installation Process
 Follow these steps to install PsTo-do on Windows
 
 
-    - Download Repo -
-PsTodo - BackEnd   
+- Download Repo -
+ PsTodo - BackEnd   
 
-    - Create Database and Tables - 
-      On the Appserver
+- Create Database and Tables - 
+ On the Appserver
    
-    
-    
-
-
 We hope you enjoy using PsTo-Do! For any questions, feedback, or bug reports, please submit an issue on our GitHub repository. Happy organizing!
