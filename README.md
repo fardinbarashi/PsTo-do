@@ -40,9 +40,19 @@ Windows
 Installation Process
 
 Follow these steps to install PsTo-do on Windows
+    On Sql
 
-    Download the installer for Powershell from the https://github.com/PowerShell/PowerShell/releases page.
-    Locate the downloaded file and double-click on it to start the installation process.
-    Follow the on-screen instructions to complete the installation.
+    On the Appserver
+    - Install Powershell - 
+      Download the installer for Powershell from the https://github.com/PowerShell/PowerShell/releases page.
+      Locate the downloaded file and double-click on it to start the installation process.
+      Follow the on-screen instructions to complete the installation.
+    
+    - Create Database and Tables - 
+      On the Appserver
+   
+    
+    
+
 
 We hope you enjoy using PsTo-Do! For any questions, feedback, or bug reports, please submit an issue on our GitHub repository. Happy organizing!
