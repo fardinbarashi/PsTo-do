@@ -1,0 +1,160 @@
+<mxfile host="Electron" modified="2023-04-17T15:08:28.033Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="BbHPbs9ThsgWBs_EBedg" version="21.1.2" type="device">
+  <diagram id="E9O1DwAc9OfRLRK49Jwf" name="Sida-1">
+    <mxGraphModel dx="2938" dy="2357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.012;exitY=0.036;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="-9vlfLfI2Yb8ipi9uNu7-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="470" as="sourcePoint" />
+            <mxPoint x="600" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0t5vOsb9JFAAlmT5RIgE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="-9vlfLfI2Yb8ipi9uNu7-2" target="-9vlfLfI2Yb8ipi9uNu7-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-2" value="AD-Group Public Users Read" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" parent="1" vertex="1">
+          <mxGeometry x="380" y="240" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="-9vlfLfI2Yb8ipi9uNu7-4" target="-9vlfLfI2Yb8ipi9uNu7-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="327" y="240" />
+              <mxPoint x="327" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-4" value="&amp;nbsp;User" style="fillColor=#28A8E0;verticalLabelPosition=bottom;sketch=0;html=1;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.capability.user;" parent="1" vertex="1">
+          <mxGeometry x="230" y="210" width="43" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-7" value="&lt;h1&gt;Site&lt;/h1&gt;&lt;p&gt;System permission,read and modify PsToDo Site&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="760" y="-120" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-9" value="Windows webserver" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/windows_server_2.svg;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="599.5" y="360" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" parent="1" source="-9vlfLfI2Yb8ipi9uNu7-10" target="-9vlfLfI2Yb8ipi9uNu7-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-10" value="&lt;h1&gt;Windows Webserver&lt;br&gt;&lt;/h1&gt;&lt;p&gt;-- Works as frontent &lt;br&gt;-- Contains the binary files for site&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="820" y="325" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-13" value="Windows SQL" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/sql_server.svg;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="450" y="360" width="38.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" parent="1" source="-9vlfLfI2Yb8ipi9uNu7-15" target="-9vlfLfI2Yb8ipi9uNu7-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-15" value="&lt;h1&gt;Contains&lt;/h1&gt;&lt;div&gt;Database and tables&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="325" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-17" value="Windows AppServer" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="449.25" y="490" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" parent="1" source="-9vlfLfI2Yb8ipi9uNu7-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="469" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-20" value="&lt;h1&gt;Windows Appserver&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Work as Backend&lt;br&gt;&lt;br&gt;-- Notifyes team with SMTP or Teams&lt;br&gt;&lt;br&gt;-- Have powershell scripts to check if there are any expiring objects&lt;br&gt;&lt;br&gt;-- Application to add data to SQL with client&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="344.5" y="650" width="250" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="0t5vOsb9JFAAlmT5RIgE-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="0t5vOsb9JFAAlmT5RIgE-1" target="-9vlfLfI2Yb8ipi9uNu7-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0t5vOsb9JFAAlmT5RIgE-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="0t5vOsb9JFAAlmT5RIgE-1" target="-9vlfLfI2Yb8ipi9uNu7-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0t5vOsb9JFAAlmT5RIgE-1" value="SystemAdmin" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="594.5" y="490" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t5vOsb9JFAAlmT5RIgE-4" value="SystemAdmin" style="points=[[0.35,0,0],[0.98,0.51,0],[1,0.71,0],[0.67,1,0],[0,0.795,0],[0,0.65,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.user;fillColor=#005073;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="594.5" y="10" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0t5vOsb9JFAAlmT5RIgE-6" value="AD-Group System Users Read" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" parent="1" vertex="1">
+          <mxGeometry x="510" y="80" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-1" value="AD-Group System Users Modify" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.user_group" parent="1" vertex="1">
+          <mxGeometry x="690" y="90" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.795;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.82;entryY=0.14;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#000000;" parent="1" source="0t5vOsb9JFAAlmT5RIgE-4" target="0t5vOsb9JFAAlmT5RIgE-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="630" as="sourcePoint" />
+            <mxPoint x="850" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.05;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#000000;" parent="1" source="0t5vOsb9JFAAlmT5RIgE-4" target="lXcDBBT54EaGJhpbFNlL-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="600" as="sourcePoint" />
+            <mxPoint x="850" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-8" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="0t5vOsb9JFAAlmT5RIgE-6" target="-9vlfLfI2Yb8ipi9uNu7-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="600" as="sourcePoint" />
+            <mxPoint x="850" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-9" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="lXcDBBT54EaGJhpbFNlL-1" target="-9vlfLfI2Yb8ipi9uNu7-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="600" as="sourcePoint" />
+            <mxPoint x="850" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-10" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=link;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="lXcDBBT54EaGJhpbFNlL-11" target="-9vlfLfI2Yb8ipi9uNu7-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-11" value="&lt;h1 style=&quot;border-color: var(--border-color);&quot;&gt;Site&lt;/h1&gt;&lt;h1&gt;&lt;p style=&quot;border-color: var(--border-color); font-size: 12px; font-weight: 400;&quot;&gt;System permission,read PsToDo Site&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="20" y="50" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="488.5" y="399" as="sourcePoint" />
+            <mxPoint x="599.5" y="399" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="-9vlfLfI2Yb8ipi9uNu7-17" target="-9vlfLfI2Yb8ipi9uNu7-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="600" as="sourcePoint" />
+            <mxPoint x="850" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-9vlfLfI2Yb8ipi9uNu7-1" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.website;labelBorderColor=none;" parent="1" vertex="1">
+          <mxGeometry x="590" y="264" width="59" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.828;exitY=0.028;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="-9vlfLfI2Yb8ipi9uNu7-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="350" as="sourcePoint" />
+            <mxPoint x="633" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="633" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXcDBBT54EaGJhpbFNlL-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.013;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" target="-9vlfLfI2Yb8ipi9uNu7-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="740" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PY9mD2EGZoz2jxAspmBt-2" value="&lt;h1&gt;Site&lt;/h1&gt;&lt;p&gt;System permission,read PsToDo Site&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=default;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="-120" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PY9mD2EGZoz2jxAspmBt-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=link;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="-9vlfLfI2Yb8ipi9uNu7-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="430" as="sourcePoint" />
+            <mxPoint x="720" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PY9mD2EGZoz2jxAspmBt-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;shape=link;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="PY9mD2EGZoz2jxAspmBt-2" target="0t5vOsb9JFAAlmT5RIgE-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="430" as="sourcePoint" />
+            <mxPoint x="510" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
