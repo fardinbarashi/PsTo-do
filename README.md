@@ -20,21 +20,28 @@ See design image
 ![design image](https://github.com/fardinbarashi/PsTo-do/blob/main/Design.jpg))
 
 Installation Process
- 1.  On the Appserver
-    - Install Powershell - 
-      Download the installer for Powershell from the https://github.com/PowerShell/PowerShell/releases page.
-      Locate the downloaded file and double-click on it to start the installation process.
-      Follow the on-screen instructions to complete the installation.
-    
- 2.  On the Appserver, Create database and tables on SQL server
-
-Follow these steps to install PsTo-do on Windows
-
-
-- Download Repo -
- PsTodo - BackEnd   
-
-- Create Database and Tables - 
- On the Appserver
-   
-We hope you enjoy using PsTo-Do! For any questions, feedback, or bug reports, please submit an issue on our GitHub repository. Happy organizing!
+ - Databas and Tables
+ Run SQL-Query in MS-SQL
+## Create Table MonitorObjects
+Run the code in MS T-SQL 
+```
+-- Create Table MonitorObjects Start
+CREATE TABLE MonitorObjects (
+ ID bigint PRIMARY KEY NOT NULL,
+ ServerName varchar(MAX) NULL,
+ ExpireDate datetime NOT NULL,
+ FirstAlertdate int NOT NULL,
+ SecondAlertdate int NULL,
+ ThirdAlertdate int NULL,
+ ObjectName varchar(MAX) NULL,
+ Enviroment varchar(MAX) NULL,
+ Template varchar(MAX) NULL,
+ Description varchar(MAX) NULL,
+ Office varchar(MAX) NULL,
+ System varchar(MAX) NULL,
+ SharePointUrl varchar(MAX) NULL,
+ Message varchar(MAX)
+);
+-- Create Table MonitorObjects End
+```
+ 
