@@ -22,8 +22,9 @@ See design image
 Installation Process
  - Databas and Tables
  Run SQL-Query in MS-SQL
-## Create Table MonitorObjects
+## Create Table MonitorObjects and WorkLoadMonitorObjects 
 Run the code in MS T-SQL 
+## Table MonitorObjects
 ```
 -- Create Table MonitorObjects Start
 CREATE TABLE MonitorObjects (
@@ -39,9 +40,30 @@ CREATE TABLE MonitorObjects (
  Description varchar(MAX) NULL,
  Office varchar(MAX) NULL,
  System varchar(MAX) NULL,
- SharePointUrl varchar(MAX) NULL,
  Message varchar(MAX)
 );
 -- Create Table MonitorObjects End
 ```
- 
+## Table WorkLoadMonitorObjects 
+```
+-- Create Table WorkLoadMonitorObjects Start
+CREATE TABLE WorkLoadMonitorObjects (
+ ID bigint PRIMARY KEY NOT NULL,
+ ServerName varchar(MAX) NULL,
+ ExpireDate datetime NOT NULL,
+ FirstAlertdate int NOT NULL,
+ SecondAlertdate int NULL,
+ ThirdAlertdate int NULL,
+ NotifiedFirstAlertdate Bit NULL,
+ NotifiedSecondAlertdate Bit NULL,
+ NotifiedThirdAlertdate Bit NULL,
+ ObjectName varchar(MAX) NULL,
+ Enviroment varchar(MAX) NULL,
+ Template varchar(MAX) NULL,
+ Description varchar(MAX) NULL,
+ Office varchar(MAX) NULL,
+ System varchar(MAX) NULL,
+ Message varchar(MAX) 
+);
+-- Create Table WorkLoadMonitorObjects End
+```
