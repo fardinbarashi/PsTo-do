@@ -18,13 +18,21 @@ Whether you're an individual looking to optimize your workflow or a team strivin
 System design image
 ![design image](https://github.com/fardinbarashi/PsTo-do/blob/main/Design.jpg)
 
+## Table of Contents
+
+- [Installation Process](#installation-process)
+  - [Windows SQL](#windows-sql)
+  - [Windows AppServer](#windows-appserver)
+  - [Windows Webserver](#windows-webserver)
+
+
+
 ## Installation Process
- - Databas and Tables
 
-## Create Table MonitorObjects and WorkLoadMonitorObjects 
-
+### Windows SQL
 This section presents the structure and purpose of the MonitorObjects and WorkLoadMonitorObjects tables, designed for monitoring system objects and related workloads so that PsTo-Do can work.
 
+Instructions on setting up the Windows sql and create table MonitorObjects and WorkLoadMonitorObjects 
 # Table MonitorObjects 
 Below is a list of columns in the table MonitorObjects, along with their purpose and examples:
 
@@ -151,3 +159,12 @@ CREATE TABLE WorkLoadMonitorObjects (
 );
 -- Create Table WorkLoadMonitorObjects End
 ```
+
+
+### Windows AppServer
+
+Instructions on setting up the Windows AppServer.
+
+### Windows Webserver
+
+Instructions on setting up the Windows Webserver.
