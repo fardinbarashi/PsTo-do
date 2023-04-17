@@ -15,13 +15,12 @@ PsTo-do is a application built to enhance productivity and improve time manageme
 
 Whether you're an individual looking to optimize your workflow or a team striving for seamless collaboration, PsTo-do has you covered.
 
-System Requirements
-See design image
-![design image](https://github.com/fardinbarashi/PsTo-do/blob/main/Design.jpg))
+System design image
+![design image](https://github.com/fardinbarashi/PsTo-do/blob/main/Design.jpg)
 
-Installation Process
+## Installation Process
  - Databas and Tables
- Run SQL-Query in MS-SQL
+
 ## Create Table MonitorObjects and WorkLoadMonitorObjects 
 Run the code in MS T-SQL 
 ## Table MonitorObjects
@@ -30,7 +29,7 @@ Run the code in MS T-SQL
 CREATE TABLE MonitorObjects (
  ID bigint PRIMARY KEY NOT NULL,
  ServerName varchar(MAX) NULL,
- ExpireDate datetime NOT NULL,
+ ObjectExpireDate datetime NOT NULL,
  FirstAlertdate int NOT NULL,
  SecondAlertdate int NULL,
  ThirdAlertdate int NULL,
@@ -50,13 +49,16 @@ CREATE TABLE MonitorObjects (
 CREATE TABLE WorkLoadMonitorObjects (
  ID bigint PRIMARY KEY NOT NULL,
  ServerName varchar(MAX) NULL,
- ExpireDate datetime NOT NULL,
- FirstAlertdate int NOT NULL,
- SecondAlertdate int NULL,
- ThirdAlertdate int NULL,
+ ObjectExpireDate datetime NOT NULL,
+ FirstAlertdate datetime NULL,
+ SecondAlertdate datetime NULL,
+ ThirdAlertdate datetime NULL,
  NotifiedFirstAlertdate Bit NULL,
  NotifiedSecondAlertdate Bit NULL,
  NotifiedThirdAlertdate Bit NULL,
+ WhenFirstAlertdate datetime NULL,
+ WhenSecondAlertdate datetime NULL,
+ WhenThirdAlertdate datetime NULL,
  ObjectName varchar(MAX) NULL,
  Enviroment varchar(MAX) NULL,
  Template varchar(MAX) NULL,
