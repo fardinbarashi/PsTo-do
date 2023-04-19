@@ -21,7 +21,7 @@ PsTo-do is a application built to enhance productivity and improve time manageme
     Collaboration: Share and assign tasks to team members, and track progress in real-time.
 Whether you're an individual looking to optimize your workflow or a team striving for seamless collaboration, PsTo-do has you covered.
 
-System design
+Preferred Systemdeployment
 ![design image](https://github.com/fardinbarashi/PsTo-do/blob/main/Design.jpg)
 
 
