@@ -29,6 +29,7 @@ Preferred Systemdeployment
 
 ### Windows SQL
 This section presents the structure and purpose of the MonitorObjects and WorkLoadMonitorObjects tables, designed for monitoring system objects and related workloads so that PsTo-Do can work.
+Populate table MonitorObjects with data.
 
 Instructions on setting up the Windows sql database PsToDo and create table MonitorObjects and WorkLoadMonitorObjects. 
 Below is a list of columns in the table MonitorObjects and WorkLoadMonitorObjects, along with their purpose and examples:
