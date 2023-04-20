@@ -30,9 +30,8 @@ Preferred Systemdeployment
 ### Windows SQL
 This section presents the structure and purpose of the MonitorObjects and WorkLoadMonitorObjects tables, designed for monitoring system objects and related workloads so that PsTo-Do can work.
 
-Instructions on setting up the Windows sql and create table MonitorObjects and WorkLoadMonitorObjects 
-# Table MonitorObjects 
-Below is a list of columns in the table MonitorObjects, along with their purpose and examples:
+Instructions on setting up the Windows sql database PsToDo and create table MonitorObjects and WorkLoadMonitorObjects 
+Below is a list of columns in the table MonitorObjects and WorkLoadMonitorObjects, along with their purpose and examples:
 
     ID (Primary Key)
         Purpose: Unique identifier for each record, can not be null
@@ -86,29 +85,8 @@ Below is a list of columns in the table MonitorObjects, along with their purpose
         Purpose: Number indicating the amount of days that will trigger the Third alert when it is comparing to ObjectExpireDate
         Example: 15
 
-Run the code in MS T-SQL 
-```
--- Create Table MonitorObjects Start
-CREATE TABLE MonitorObjects (
- ID bigint PRIMARY KEY NOT NULL,
- ObjectName varchar(MAX) NULL,
- ObjectExpireDate datetime NOT NULL,
- ObjectTemplate varchar(MAX) NULL,
- ObjectDescription varchar(MAX) NULL,
- TeamsChannel varchar(MAX) NOT NULL,
- TeamMailbox varchar(MAX) NOT NULL,
- TeamMessage varchar(MAX) NOT NULL,
- SuperUserMailbox varchar(MAX) NULL,
- SuperUserMessage varchar(MAX) NULL,
- FirstAlertDate int(MAX) NOT NULL,
- SecondAlertdate int(MAX) NULL,
- ThirdAlertdate int(MAX) NULL
-);
--- Create Table MonitorObjects End
 
-```
-## Table WorkLoadMonitorObjects 
-Below is a list of columns in the table WorkLoadMonitorObjects, along with their purpose and examples:
+Table WorkLoadMonitorObjects.
 
     ID (bigint PRIMARY KEY NOT NULL)
         Purpose: Unique identifier for each record'
@@ -144,18 +122,44 @@ Below is a list of columns in the table WorkLoadMonitorObjects, along with their
 
 Run the code in MS T-SQL
 ```
--- Create Table WorkLoadMonitorObjects Start
-CREATE TABLE WorkLoadMonitorObjects (
- ID bigint PRIMARY KEY NOT NULL,
- ObjectName varchar(MAX) NULL,
- NotifiedFirstAlertdate Bit NULL,
- NotifiedSecondAlertdate Bit NULL,
- NotifiedThirdAlertdate Bit NULL,
- WhenFirstAlertdate datetime NULL,
- WhenSecondAlertdate datetime NULL,
- WhenThirdAlertdate datetime NULL
+-- Create the database
+CREATE DATABASE PsToDo;
+
+```
+
+```
+-- Use the database
+USE PsToDo;
+
+-- Create table MonitorObjects
+CREATE TABLE MonitorObjects (
+    ID bigint PRIMARY KEY NOT NULL,
+    ObjectName varchar(MAX) NULL,
+    ObjectExpireDate datetime NOT NULL,
+    ObjectTemplate varchar(MAX) NULL,
+    ObjectDescription varchar(MAX) NULL,
+    TeamsChannel varchar(MAX) NOT NULL,
+    TeamMailbox varchar(MAX) NOT NULL,
+    TeamMessage varchar(MAX) NOT NULL,
+    SuperUserMailbox varchar(MAX) NULL,
+    SuperUserMessage varchar(MAX) NULL,
+    FirstAlertDate int NOT NULL,
+    SecondAlertdate int NULL,
+    ThirdAlertdate int NULL
 );
--- Create Table WorkLoadMonitorObjects End
+
+-- Create table WorkLoadMonitorObjects
+CREATE TABLE WorkLoadMonitorObjects (
+    ID bigint PRIMARY KEY NOT NULL,
+    ObjectName varchar(MAX) NULL,
+    NotifiedFirstAlertdate bit NULL,
+    NotifiedSecondAlertdate bit NULL,
+    NotifiedThirdAlertdate bit NULL,
+    WhenFirstAlertdate datetime NULL,
+    WhenSecondAlertdate datetime NULL,
+    WhenThirdAlertdate datetime NULL
+);
+
 ```
 
 
