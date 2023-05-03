@@ -73,6 +73,22 @@ Below is a list of columns in the table MonitorObjects and WorkLoadMonitorObject
     SuperUserMessage
         Purpose: Specific message for the superusers regarding the object
         Example: This is information that Object in Servername is going to expire. For more information, contact TeamMailbox.
+    
+    NotifyTeamWithMail
+        Purpose: Selected notification method with mail to Team
+        Example: Bit  0 Null : No, 1 True : Yes
+    
+    NotifyTeamWithTeams
+        Purpose: Selected notification method with teams to Team
+        Example: Bit  0 Null : No, 1 True : Yes
+
+    NotifySUWithMail
+        Purpose: Selected notification method with mail to SuperUSer
+        Example: Bit  0 Null : No, 1 True : Yes
+    
+    NotifySUWithTeams
+        Purpose: Selected notification method with teams to SuperUser
+        Example: Bit  0 Null : No, 1 True : Yes
 
     FirstAlertDate
         Purpose: Number indicating the amount of days that will trigger the first alert when it is comparing to ObjectExpireDate
@@ -144,6 +160,10 @@ CREATE TABLE MonitorObjects (
     TeamMessage varchar(MAX) NOT NULL,
     SuperUserMailbox varchar(MAX) NULL,
     SuperUserMessage varchar(MAX) NULL,
+    NotifyTeamWithMail bit NULL,
+    NotifyTeamWithTeams bit NULL,
+    NotifySUWithMail bit NULL,
+    NotifySUWithTeams bit NULL,
     FirstAlertDate int NOT NULL,
     SecondAlertdate int NULL,
     ThirdAlertdate int NULL
