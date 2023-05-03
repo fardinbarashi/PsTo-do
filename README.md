@@ -75,20 +75,20 @@ Below is a list of columns in the table MonitorObjects and WorkLoadMonitorObject
         Example: This is information that Object in Servername is going to expire. For more information, contact TeamMailbox.
     
     NotifyTeamWithMail
-        Purpose: Selected notification method with mail to Team
-        Example: Bit  0 Null : No, 1 True : Yes
+        Purpose: Flag indicating if selected notification method is with mail to Team
+        Example: 0 False : No, 1 True : Yes
     
     NotifyTeamWithTeams
-        Purpose: Selected notification method with teams to Team
-        Example: Bit  0 Null : No, 1 True : Yes
+        Purpose: Flag indicating if selected notification method is with teams to Team
+        Example: 0 False : No, 1 True : Yes
 
     NotifySUWithMail
-        Purpose: Selected notification method with mail to SuperUser
-        Example: Bit  0 Null : No, 1 True : Yes
+        Purpose: Flag indicating if selected notification method is with mail to SuperUser
+        Example: 0 False : No, 1 True : Yes
     
     NotifySUWithTeams
-        Purpose: Selected notification method with teams to SuperUser
-        Example: Bit  0 Null : No, 1 True : Yes
+        Purpose: Flag indicating if selected notification method is with teams to SuperUser
+        Example: 0 False : No, 1 True : Yes
 
     FirstAlertDate
         Purpose: Number indicating the amount of days that will trigger the first alert when it is comparing to ObjectExpireDate
@@ -115,15 +115,15 @@ Table WorkLoadMonitorObjects.
 
     NotifiedFirstAlertdate (Bit NULL)
         Purpose: Flag indicating if the first alert has been sent (1: sent, 0: not sent)
-        Example: 0
+        Example: 0 False : No, 1 True : Yes
 
     NotifiedSecondAlertdate (Bit NULL)
         Purpose: Flag indicating if the second alert has been sent (1: sent, 0: not sent)
-        Example: 0
+        Example: 0 False : No, 1 True : Yes
 
     NotifiedThirdAlertdate (Bit NULL)
         Purpose: Flag indicating if the third alert has been sent (1: sent, 0: not sent)
-        Example: 0
+        Example: 0 False : No, 1 True : Yes
 
     WhenFirstAlertdate (datetime NULL)
         Purpose: Timestamp of when the first alert was sent
