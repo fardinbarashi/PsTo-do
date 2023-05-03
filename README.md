@@ -83,7 +83,7 @@ Below is a list of columns in the table MonitorObjects and WorkLoadMonitorObject
         Example: Bit  0 Null : No, 1 True : Yes
 
     NotifySUWithMail
-        Purpose: Selected notification method with mail to SuperUSer
+        Purpose: Selected notification method with mail to SuperUser
         Example: Bit  0 Null : No, 1 True : Yes
     
     NotifySUWithTeams
