@@ -22,16 +22,18 @@ PsTo-do is a application built to enhance productivity and improve time manageme
 Whether you're an individual looking to optimize your workflow or a team striving for seamless collaboration, PsTo-do has you covered.
 
 Preferred Systemdeployment
+
 ![design image](https://github.com/fardinbarashi/PsTo-do/blob/main/Design.jpg)
 
 
 ## Installation Process
 
 ### Windows SQL
-This section presents the structure and purpose of the MonitorObjects and WorkLoadMonitorObjects tables, designed for monitoring system objects and related workloads so that PsTo-Do can work.
-Populate table MonitorObjects with data.
+This section presents the structure and purpose of the MonitorObjects and WorkLoadMonitorObjects tables, 
+designed for monitoring system objects and related workloads so that PsTo-Do can work.
 
 Instructions on setting up the Windows sql database PsToDo and create table MonitorObjects and WorkLoadMonitorObjects. 
+
 Below is a list of columns in the table MonitorObjects and WorkLoadMonitorObjects, along with their purpose and examples:
 
     ID (Primary Key)
@@ -91,15 +93,22 @@ Below is a list of columns in the table MonitorObjects and WorkLoadMonitorObject
         Example: 0 False : No, 1 True : Yes
 
     FirstAlertDate
-        Purpose: Number indicating the amount of days that will trigger the first alert when it is comparing to ObjectExpireDate
-        Example: 45
+        Purpose: This number indicates the amount of days that will trigger the first alert when compared to the ObjectExpireDate. 
+        Here, you should have the highest number to be warned as early as possible that the object will expire in a certain number of days. 
+        In the example, you will be warned 45 days before the object is going to expire.
+        Example: 45      
 
     SecondAlertdate 
-        Purpose: Number indicating the amount of days that will trigger the Second alert when it is comparing to ObjectExpireDate
+        Purpose: Number indicating the amount of days that will trigger the Second alert when it is comparing to ObjectExpireDate 
+        Here you should have the slightly lower number than the FirstAlertDate to be warned that the object will expire in a certain number of days. 
+        In the example, you will be warned 30 days before the object is going to expire.
         Example: 30
 
     ThirdAlertdate 
-        Purpose: Number indicating the amount of days that will trigger the Third alert when it is comparing to ObjectExpireDate
+        Purpose: This number indicates the amount of days that will trigger the Third alert when compared to the ObjectExpireDate. 
+        Here, you should have a lower number than the SecondAlertDate to be warned that the object will expire in a certain number of days. 
+        This is your deadline before you need to take action. 
+        In the example, you will be warned 15 days before the object is going to expire.
         Example: 15
 
 
