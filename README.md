@@ -187,6 +187,10 @@ CREATE TABLE WorkLoadMonitorObjects (
 ### Windows AppServer
 
 Instructions on setting up the Windows AppServer.
+You need to install SQL modules.
+```
+Install-Module -Name SqlServer
+```
 
 ### Windows Webserver
 
