@@ -32,6 +32,7 @@ Preferred Systemdeployment
 This section presents the structure and purpose of the MonitorObjects and WorkLoadMonitorObjects tables, 
 designed for monitoring system objects and related workloads so that PsTo-Do can work.
 
+
 Instructions on setting up the Windows sql database PsToDo and create table MonitorObjects and WorkLoadMonitorObjects. 
 
 Below is a list of columns in the table MonitorObjects and WorkLoadMonitorObjects, along with their purpose and examples:
@@ -194,12 +195,14 @@ CREATE TABLE WorkLoadMonitorObjects (
 
 
 ### Windows AppServer
+Role Appserver "handles objects that are expiring, notifies those who need to know, automates flows.
 
 Instructions on setting up the Windows AppServer.
 You need to install SQL modules.
 ```
 Install-Module -Name SqlServer
 ```
+Set up the scripts in TaskScheduler.
 
 ### Windows Webserver
 
