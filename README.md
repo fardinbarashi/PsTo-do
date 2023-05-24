@@ -60,16 +60,16 @@ Below is a list of columns in the table MonitorObjects and WorkLoadMonitorObject
         Example: This is a Certification
 
     TeamsChannelIncomingWebhook
-        Purpose: Team channel Incoming Webhook associated with the object, can not be null
+        Purpose: Team channel Incoming Webhook associated with the object
         Example: add teamchannels IncomingWebhook address, For Example
         https://lab.webhook.office.com/webhookb2/0857bbd3-cd16-47fe-a398-7bdc3f482c56@dd694f0d-56be-4a3f-8a13-1d3d34806e66/IncomingWebhook/6a862b3e764d4d8fa3345880e7871ef9/92fc59a0-7369-4dd0-b6ad-8221253d9823
 
     TeamMailbox
-        Purpose: Email address associated with the team responsible for the object, can not be null
+        Purpose: Email address associated with the team responsible for the object
         Example: Team@something@contoso.com
 
     TeamMessage
-        Purpose: Specific message for the team regarding the object, can not be null
+        Purpose: Specific message for the team regarding the object
         Example: Servername within system X in Sandbox contains objectsname that is going to expire. Check FAQ for solution.
 
     SuperUserMailbox
@@ -168,9 +168,9 @@ CREATE TABLE MonitorObjects (
     ObjectExpireDate datetime NOT NULL,
     ObjectTemplate varchar(MAX) NULL,
     ObjectDescription varchar(MAX) NULL,
-    TeamsChannelIncomingWebhook varchar(MAX) NOT NULL,
-    TeamMailbox varchar(MAX) NOT NULL,
-    TeamMessage varchar(MAX) NOT NULL,
+    TeamsChannelIncomingWebhook varchar(MAX) NULL,
+    TeamMailbox varchar(MAX) NULL,
+    TeamMessage varchar(MAX) NULL,
     SuperUserMailbox varchar(MAX) NULL,
     SuperUserMessage varchar(MAX) NULL,
     NotifyTeamWithMail bit NULL,
