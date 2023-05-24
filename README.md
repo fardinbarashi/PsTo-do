@@ -8,6 +8,8 @@
   - [Windows SQL](#windows-sql)
   - [Windows AppServer](#windows-appserver)
   - [Windows Webserver](#windows-webserver)
+  -  [Other Configuration ](#other-configuration)
+
 
 ### About
 Welcome PsTo-Do App! This innovative and user-friendly application is designed to simplify your daily tasks and help you stay organized. If you want to monitor licenses or other objects this solution will help your organization.
@@ -57,9 +59,10 @@ Below is a list of columns in the table MonitorObjects and WorkLoadMonitorObject
         Purpose: Description of the object
         Example: This is a Certification
 
-    TeamsChannel
-        Purpose: Team channel associated with the object, can not be null
-        Example: add teamchannels address
+    TeamsChannelIncomingWebhook
+        Purpose: Team channel Incoming Webhook associated with the object, can not be null
+        Example: add teamchannels IncomingWebhook address, For Example
+        https://lab.webhook.office.com/webhookb2/0857bbd3-cd16-47fe-a398-7bdc3f482c56@dd694f0d-56be-4a3f-8a13-1d3d34806e66/IncomingWebhook/6a862b3e764d4d8fa3345880e7871ef9/92fc59a0-7369-4dd0-b6ad-8221253d9823
 
     TeamMailbox
         Purpose: Email address associated with the team responsible for the object, can not be null
@@ -165,7 +168,7 @@ CREATE TABLE MonitorObjects (
     ObjectExpireDate datetime NOT NULL,
     ObjectTemplate varchar(MAX) NULL,
     ObjectDescription varchar(MAX) NULL,
-    TeamsChannel varchar(MAX) NOT NULL,
+    TeamsChannelIncomingWebhook varchar(MAX) NOT NULL,
     TeamMailbox varchar(MAX) NOT NULL,
     TeamMessage varchar(MAX) NOT NULL,
     SuperUserMailbox varchar(MAX) NULL,
@@ -207,3 +210,13 @@ Set up the scripts in TaskScheduler.
 ### Windows Webserver
 
 Instructions on setting up the Windows Webserver.
+
+
+### Other Configuration
+Instructions on setting up Other Configuration.
+
+In Teams you need to add Connector->Incoming Webhook
+
+![TeamsConnectorConfig](https://github.com/fardinbarashi/PsTo-do/blob/main/Support/TeamsConnector1.PNG)
+![TeamsConnectorConfig](https://github.com/fardinbarashi/PsTo-do/blob/main/Support/TeamsConnector2.PNG)
+![TeamsConnectorConfig](https://github.com/fardinbarashi/PsTo-do/blob/main/Support/TeamsConnector3.PNG)
